@@ -1,1488 +1,326 @@
-<html lang="en-US">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width"><!-- <meta name="viewport" content="width=575"> -->
-    <meta name="format-detection" content="telephone=no">
-    <!-- This site is optimized with the Yoast SEO Premium plugin  - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Trecey</title>
-    <meta name="description"
-        content="Web Animation Techniques for Your Web Design &#9889; Technologies and tools for creating web animations &#9889; Creative Web Animation Examples &#9889; Fireart">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <link rel="canonical" href="https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="og:title"
-        content="Animations for a website &bull; 15 Best Web Animation Techniques for Your Web Design | Fireart">
-    <meta property="og:description"
-        content="Web Animation Techniques for Your Web Design &#9889; Technologies and tools for creating web animations &#9889; Creative Web Animation Examples &#9889; Fireart">
-    <meta property="og:url"
-        content="https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/">
-    <meta property="og:site_name" content="Fireart Studio">
-    <meta property="article:published_time" content="2020-09-09T11:00:54+00:00">
-    <meta property="article:modified_time" content="2021-02-18T14:56:34+00:00">
-    <meta property="og:image" content="https://fireart.studio/wp-content/uploads/2018/06/1412-1.jpg">
-    <meta property="og:image:width" content="960">
-    <meta property="og:image:height" content="640">
-    <meta name="twitter:card" content="summary_large_image">
-    <script type="application/ld+json"
-        class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://fireart.studio/#website","url":"https://fireart.studio/","name":"Fireart Studio","description":"Digital Products Design and Development","potentialAction":[{"@type":"SearchAction","target":"https://fireart.studio/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/#primaryimage","inLanguage":"en-US","url":"https://fireart.studio/wp-content/uploads/2018/06/1412-1.jpg","width":960,"height":640},{"@type":"WebPage","@id":"https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/#webpage","url":"https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/","name":"Animations for a website \u2022 15 Best Web Animation Techniques for Your Web Design | Fireart","isPartOf":{"@id":"https://fireart.studio/#website"},"primaryImageOfPage":{"@id":"https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/#primaryimage"},"datePublished":"2020-09-09T11:00:54+00:00","dateModified":"2021-02-18T14:56:34+00:00","author":{"@id":"https://fireart.studio/#/schema/person/a93c8abe64647352437e446d10c8d57f"},"description":"Web Animation Techniques for Your Web Design \u26a1 Technologies and tools for creating web animations \u26a1 Creative Web Animation Examples \u26a1 Fireart","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/"]}]},{"@type":"Person","@id":"https://fireart.studio/#/schema/person/a93c8abe64647352437e446d10c8d57f","name":"Dana","image":{"@type":"ImageObject","@id":"https://fireart.studio/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/1b0401b869b48eda84c254187ccf00e2?s=96&d=mm&r=g","caption":"Dana"}}]}</script>
-    <!-- / Yoast SEO Premium plugin. -->
-    <link rel="dns-prefetch" href="//fireartstudio.s3-accelerate.amazonaws.com">
-    <link rel="alternate" type="application/rss+xml"
-        title="Fireart Studio &raquo; 15 Best Website Animation Techniques for Your Web Design Comments Feed"
-        href="https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/feed/">
-    <link rel="stylesheet" id="wp-block-library-css"
-        href="https://fireart.studio/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1" type="text/css"
-        media="all">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fireart.studio/xmlrpc.php?rsd">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="https://fireart.studio/wp-includes/wlwmanifest.xml">
-    <link rel="shortlink" href="https://fireart.studio/?p=1412">
-    <link rel="stylesheet" type="text/css"
-        data-href="https://fireartstudio.s3-accelerate.amazonaws.com/css/swiper.min.css">
-    <script type="text/javascript">
-        function homeIconsLazy() {
-            var images = document.querySelectorAll('.firelazyloader[data-src]');
-            if (images.length > 0) {
-                var offsetImage = images[0];
-                var coords = offsetImage.getBoundingClientRect();
-                if (coords.top <= window.innerHeight + 200) {
-                    images.forEach(function (el) {
-                        el.setAttribute('src', el.getAttribute('data-src'));
-                        el.removeAttribute('data-src');
-                    });
-                }
-            }
-        }
-        window.addEventListener('load', function () {
-            homeIconsLazy();
-        })
-        window.addEventListener('scroll', function (e) {
-            homeIconsLazy();
-        });
+    <title>Dries Van Broeck</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="robots" content="index,follow">
+    <meta name="language" content="en">
+    <meta name='copyright' content='Dries Van Broeck'>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-103591923-3', 'auto');
+      ga('send', 'pageview');
+
     </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://driesvanbroeck.be/wp-content/themes/driesvanbroeck/style.css" rel="stylesheet">
+
+    <link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/driesvanbroeck.be\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.9"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://driesvanbroeck.be/wp-includes/css/dist/block-library/style.min.css?ver=5.2.9' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://driesvanbroeck.be/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://driesvanbroeck.be/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://driesvanbroeck.be/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.9" />
+<link rel="canonical" href="http://driesvanbroeck.be/" />
+<link rel='shortlink' href='http://driesvanbroeck.be/' />
+<link rel="alternate" type="application/json+oembed" href="http://driesvanbroeck.be/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdriesvanbroeck.be%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://driesvanbroeck.be/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdriesvanbroeck.be%2F&#038;format=xml" />
+
+<!-- START - Open Graph for Facebook, Google+ and Twitter Card Tags 2.2.6.1 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Dries Van Broeck"/>
+  <meta property="og:title" content="Home"/>
+  <meta property="og:url" content="http://driesvanbroeck.be"/>
+  <meta property="og:type" content="website"/>
+  
+  <meta property="og:image" content="http://driesvanbroeck.be/wp-content/uploads/2017/09/Facebook_1200x628.jpg"/>
+  <meta property="og:image:url" content="http://driesvanbroeck.be/wp-content/uploads/2017/09/Facebook_1200x628.jpg"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Home"/>
+  <meta itemprop="headline" content="Home"/>
+  <meta itemprop="description" content="Hi, I’m Dries Van Broeck.
+A freelance motion designer based in Ghent, Belgium"/>
+  <meta itemprop="image" content="http://driesvanbroeck.be/wp-content/uploads/2017/09/Facebook_1200x628.jpg"/>
+  <meta itemprop="author" content="admin"/>
+  <!--<meta itemprop="publisher" content="Dries Van Broeck"/>--> <!-- To solve: The attribute publisher.itemtype has an invalid value -->
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Home"/>
+  <meta name="twitter:url" content="http://driesvanbroeck.be"/>
+  <meta name="twitter:description" content="Hi, I’m Wongibe Trecey.
+A freelance motion designer based in Ghent, Belgium"/>
+  <meta name="twitter:image" content="http://driesvanbroeck.be/wp-content/uploads/2017/09/Facebook_1200x628.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+  <link rel="canonical" href="http://driesvanbroeck.be"/>
+  <meta name="description" content="Hi, I’m Dries Van Broeck.
+A freelance motion designer based in Ghent, Belgium"/>
+  <meta name="author" content="admin"/>
+  <meta name="publisher" content="Dries Van Broeck"/>
+ <!-- Misc. tags -->
+ <!-- is_singular -->
+<!-- END - Open Graph for Facebook, Google+ and Twitter Card Tags 2.2.6.1 -->
+	
+
+  </head>
+  <body class="home page-template-default page page-id-11" id="Blue">
+  <div class="bg--box"></div>
+  <!--<div class="bg--line vertical"></div>-->
+  <div class="nav-link home-link"><a href="http://driesvanbroeck.be/">dries<br>van<br>broeck</a></div>
+  <div class="nav-link mail-link">
+    <a href="mailto:vanbroeckdries@gmail.com">
+      <!--
+              <img src="http://driesvanbroeck.be/wp-content/uploads/2017/08/Mail_01.png" />
+            -->
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 294.4003906 195.4003906" style="enable-background:new 0 0 294.4003906 195.4003906;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:#ffffff;}
+        </style>
+        <g>
+          <path class="st0" d="M0,0v195.4003906h294.4003906V0H0z M282.4003906,183.4003906H12V12h270.4003906V183.4003906z"/>
+          <polygon class="st0" points="221.0522461,71.7148438 213.1479492,62.6855469 145.7451172,121.6865234 79.902832,62.7304688
+            71.8979492,71.6699219 145.6552734,137.7138672 	"/>
+        </g>
+        </svg>
+
+    </a>
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li class="nav-link work-link "><a href="https://www.tekcitadel.com/">Internship Company</a></li>
+      <li class="nav-link about-link "><a href="https://www.gyanvihar.org/">University</a></li>
+    </ul>
+  </nav>
+<img src="http://driesvanbroeck.be/wp-content/themes/driesvanbroeck/assets/plus.svg" class="plus" />
+
+<div class="intro">
+  <img src="http://driesvanbroeck.be/wp-content/uploads/2017/07/Intro_1600-2.gif" />
+</div>
+
+<div class="featured--list_wrap">
+<ul class="featured--list">
+
+  
+  <li>
+    <div class="wrap">
+        <a href="http://driesvanbroeck.be/?post_type=project&#038;p=28">
+    <img src="http://driesvanbroeck.be/wp-content/uploads/2019/01/Website.gif" />
+  </a>
+    <section>
+      <h3><a href="http://driesvanbroeck.be/?post_type=project&#038;p=28">Showreel 2019</a></h3>
+      <span>animation</span>
+    </section>
+    </div>
+  </li>
+
+  
+  <li>
+    <div class="wrap">
+        <a href="http://driesvanbroeck.be/?post_type=project&#038;p=368">
+    <img src="http://driesvanbroeck.be/wp-content/uploads/2018/04/Anim-0-00-03-00.jpg" />
+  </a>
+    <section>
+      <h3><a href="http://driesvanbroeck.be/?post_type=project&#038;p=368">VVA</a></h3>
+      <span>animation</span>
+    </section>
+    </div>
+  </li>
+
+  
+  <li>
+    <div class="wrap">
+        <a href="http://driesvanbroeck.be/?post_type=project&#038;p=104">
+    <img src="http://driesvanbroeck.be/wp-content/uploads/2017/08/Thumb_700x700.gif" />
+  </a>
+    <section>
+      <h3><a href="http://driesvanbroeck.be/?post_type=project&#038;p=104">Gent M</a></h3>
+      <span>animation</span>
+    </section>
+    </div>
+  </li>
+
+  
+</ul>
+</div>
+<div class="scroll-cta">
+  <img src="http://driesvanbroeck.be/wp-content/themes/driesvanbroeck/assets/content/scroll.svg" />
+  <span class="scroll-cta--text">scroll to discover</span>
+</div>
+<div class="more-cta"><a href="http://driesvanbroeck.be/work/">
+  <img src="http://driesvanbroeck.be/wp-content/uploads/2017/07/new_16-2.gif" />  </a>
+  <span>view more</span>
+</div>
+<div class="indicator">
+  <span>1 / 3</span>
+</div>
+<div class="social">
+  <ul>
+    <li>
+      <a href="https://www.instagram.com/dries_van_broeck/" target="_blank">
+        <svg version="1.1" id="Instagram_w_circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        	 y="0px" viewBox="0 0 19.1999493 19.1999493" style="enable-background:new 0 0 19.1999493 19.1999493;" xml:space="preserve">
+        <style type="text/css">
+        	.st0{fill:#FFFFFF;}
+        </style>
+        <title>instagram-with-circle</title>
+        <path class="st0" d="M13.4977503,6.6511297c-0.1682196-0.4360404-0.5128689-0.7806902-0.9489098-0.9489102
+        	c-0.2973127-0.1101842-0.6113586-0.168426-0.9284096-0.1721802C11.0931406,5.50598,10.9350605,5.5009198,9.5999804,5.5009198
+        	S8.1068201,5.50598,7.5795298,5.5300298c-0.3170514,0.0037541-0.6310968,0.061996-0.9284101,0.1721802
+        	C6.2150793,5.87043,5.87043,6.2150793,5.7022099,6.6511197c-0.1101842,0.2973132-0.168426,0.6113586-0.1721802,0.9284101
+        	c-0.0240498,0.5272903-0.02911,0.6854506-0.02911,2.0204506s0.0050702,1.4931602,0.02911,2.0204506
+        	c0.003747,0.3170519,0.0619888,0.6310987,0.1721802,0.9284096c0.16822,0.4360399,0.5128694,0.7806892,0.9489098,0.9489098
+        	c0.2973132,0.1101847,0.6113586,0.1684265,0.9284101,0.1721802c0.5271606,0.0240002,0.6853008,0.02911,2.0204506,0.02911
+        	s1.4932899-0.0050697,2.0204506-0.02911c0.3170509-0.0037537,0.6310968-0.0619965,0.9284096-0.1721802
+        	c0.4360399-0.1682196,0.7806892-0.5128698,0.9489098-0.9489098c0.1101913-0.2973108,0.1684332-0.6113577,0.1721802-0.9284096
+        	c0.0240002-0.5272799,0.02911-0.68536,0.02911-2.0204506s-0.0050602-1.4931602-0.02911-2.0204506
+        	C13.6661749,7.2624817,13.607933,6.9484396,13.4977503,6.6511297z M9.5999804,12.1675501
+        	c-1.4180298,0-2.5675707-1.1495399-2.5675707-2.5675697s1.1495409-2.5675707,2.5675707-2.5675707
+        	s2.5675697,1.1495409,2.5675697,2.5675707l0,0c0.0000057,1.4180241-1.1495256,2.567564-2.5675507,2.5675697
+        	C9.5999937,12.1675501,9.599987,12.1675501,9.5999804,12.1675501z M12.26898,7.5309801
+        	c-0.3313713,0-0.5999994-0.2686296-0.5999994-0.6000004s0.2686291-0.5999999,0.6000004-0.5999994
+        	c0.3313704,0,0.5999994,0.2686291,0.5999994,0.5999999S12.6003513,7.5309801,12.26898,7.5309801L12.26898,7.5309801z"/>
+        <circle class="st0" cx="9.5999804" cy="9.5999804" r="1.6666899"/>
+        <path class="st0" d="M9.5999804-0.00002c-5.3019342,0-9.6000004,4.2980661-9.6000004,9.6000004
+        	s4.2980661,9.5999994,9.6000004,9.5999994s9.5999994-4.2980652,9.5999994-9.5999994l0,0
+        	c0.0000286-5.3019066-4.2979927-9.5999727-9.5998983-9.6000004C9.6000481-0.0000201,9.6000137-0.0000201,9.5999804-0.00002z
+        	 M14.56989,11.6614799c-0.0083246,0.4147882-0.0869112,0.8251629-0.23242,1.2136803
+        	c-0.2596931,0.6716404-0.7906399,1.2025871-1.4622803,1.4622803c-0.3885174,0.1455088-0.798892,0.2240963-1.2136803,0.23242
+        	c-0.533329,0.0243797-0.703619,0.0301199-2.0615292,0.0301199S8.0717802,14.5942402,7.5384598,14.56989
+        	c-0.4147878-0.0083246-0.8251629-0.0869112-1.2136798-0.23242c-0.6716404-0.2596931-1.2025867-0.7906399-1.4622803-1.4622803
+        	c-0.1455088-0.3885174-0.2240958-0.798892-0.23242-1.2136803c-0.0243597-0.533329-0.0300999-0.703619-0.0300999-2.0615292
+        	S4.60572,8.0717802,4.6300697,7.5384598C4.6383939,7.123672,4.7169809,6.7132969,4.8624897,6.32478
+        	C5.1221809,5.6531358,5.6531277,5.1221857,6.32477,4.8624897c0.3885169-0.1455088,0.798892-0.2240958,1.2136798-0.23242
+        	C8.0717802,4.60572,8.2420702,4.5999799,9.5999804,4.5999799S11.1281805,4.60572,11.6615,4.6300697
+        	c0.4147882,0.0083241,0.8251629,0.0869112,1.2136803,0.23242c0.6716404,0.2596936,1.2025862,0.7906394,1.4622803,1.4622798
+        	c0.1455088,0.3885174,0.2240963,0.798892,0.23242,1.2136803c0.0243597,0.5333304,0.0300999,0.7036204,0.0300999,2.0615306
+        	S14.5942402,11.1281805,14.56989,11.6615V11.6614799z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://vimeo.com/user10296315" target="_blank">
+        <svg version="1.1" id="Vimeo_w_x2F__circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        	 x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+        <style type="text/css">
+        	.st0{fill:#FFFFFF;}
+        </style>
+        <path class="st0" d="M10,0.4C4.698,0.4,0.3999996,4.698,0.3999996,10S4.6979995,19.6000004,10,19.6000004
+        	S19.6000004,15.302,19.6000004,10S15.302,0.4,10,0.4z M14.401,8.1499996
+        	c-0.5080004,2.9160004-3.3480005,5.3870001-4.2010002,5.9510002C9.3459997,14.6630001,8.566,13.8739996,8.2839994,13.2769995
+        	c-0.3239999-0.6820002-1.2930002-4.3730001-1.5469999-4.6799994C6.4829998,8.2910004,5.7210002,8.9040003,5.7210002,8.9040003
+        	l-0.369-0.4940004c0,0,1.5469999-1.8829999,2.724-2.1170001c1.2480001-0.25,1.2460003,1.9509997,1.5459995,3.1740003
+        	c0.2910004,1.1829996,0.4860001,1.8590002,0.7390003,1.8590002c0.2539997,0,0.7390003-0.658,1.2690001-1.6700001
+        	C12.1619997,8.6440001,11.6079998,7.75,10.5690002,8.3859997C10.9840002,5.8460002,14.9090004,5.2340002,14.401,8.1499996z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://dribbble.com/Dries" target="_blank">
+        <svg version="1.1" id="Dribble_w_x2F__circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        	 x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+        <style type="text/css">
+        	.st0{fill:#FFFFFF;}
+        </style>
+        <path class="st0" d="M10.2600002,9.9820004c0.033-0.0120001,0.0679998-0.0209999,0.1029997-0.0310001
+        	c-0.0830002-0.1850004-0.1750002-0.3769999-0.2790003-0.5839996C8.2039995,9.9240007,6.4039993,9.9290009,6.0829997,9.9240007
+        	C6.0799999,9.9490004,6.0799999,9.9750004,6.0799999,10c0,0.9449997,0.3400002,1.8529997,0.9580002,2.566
+        	C7.244,12.2340002,8.3360004,10.6049995,10.2600002,9.9820004z M7.6230001,13.1129999
+        	C8.3120003,13.6409998,9.1350002,13.9200001,10,13.9200001c0.5170002,0,1.0190001-0.1000004,1.4939995-0.2950001
+        	c-0.066-0.3809996-0.2950001-1.5410004-0.8220005-2.9219999C8.5509996,11.4530001,7.75,12.8649998,7.6230001,13.1129999z
+        	 M12.5550003,7.027c-0.7110004-0.6110001-1.6170006-0.947-2.5550003-0.947c-0.2840004,0-0.5690002,0.0310001-0.8500004,0.0939999
+        	c0.2049999,0.2750001,0.8319998,1.1459999,1.4209995,2.2229996C11.8540001,7.9039998,12.434,7.1929998,12.5550003,7.027z
+        	 M9.7049999,8.6639996C9.0970001,7.592,8.4639997,6.7090001,8.29,6.473C7.223,6.9899998,6.4380002,7.9790001,6.177,9.1309996
+        	h0.0170002C6.5999999,9.1309996,8.0430002,9.0979996,9.7049999,8.6639996z M11.5139999,10.4960003
+        	c0.4650002,1.2930002,0.6789999,2.3670006,0.7399998,2.7110004c0.8520002-0.6000004,1.434-1.5209999,1.6090002-2.5430002
+        	c-0.1739998-0.0530005-0.802-0.2209997-1.592-0.2209997C12.0129995,10.4429998,11.7580004,10.4610004,11.5139999,10.4960003z
+        	 M10,0.4C4.698,0.4,0.3999996,4.698,0.3999996,10S4.6979995,19.6000004,10,19.6000004S19.6000004,15.302,19.6000004,10
+        	S15.302,0.4,10,0.4z M10,14.6969995c-2.592,0-4.6989999-2.1070004-4.6989999-4.6969995
+        	C5.3010001,7.408,7.408,5.3010001,10,5.3010001c2.5909996,0,4.698,2.1080003,4.698,4.6989999
+        	C14.698,12.5900002,12.5909996,14.6969995,10,14.6969995z M10.9219999,9.0740004
+        	c0.0869999,0.1800003,0.1680002,0.3570004,0.2419996,0.5310001c0.0229998,0.0570002,0.0480003,0.1129999,0.0710001,0.1700001
+        	c0.2770004-0.033,0.573-0.0489998,0.882-0.0489998c0.8540001,0,1.5629997,0.125,1.8009996,0.1719999
+        	c-0.0220003-0.8500004-0.323-1.6759996-0.8520002-2.3400002C12.9060001,7.7639999,12.2480001,8.5209999,10.9219999,9.0740004z"/>
+        </svg>
+      </a>
+  </li>
+  <li>
+    <a href="https://www.behance.net/Driez" target="_blank">
+          <svg version="1.1" id="Instagram_w_circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    	 y="0px" viewBox="0 0 19.1999493 19.1999493" style="enable-background:new 0 0 19.1999493 19.1999493;" xml:space="preserve">
     <style type="text/css">
-        body {
-            background-color: #fff;
-            color: #000;
-        }
+    	.st0{fill:#FFFFFF;}
     </style>
-    <link rel="icon" href="https://fireart.studio/wp-content/themes/fireart/favicon.ico">
-    <link rel="shortcut icon" href="https://fireart.studio/wp-content/themes/fireart/favicon.ico" type="image/x-icon">
-    <script
-        type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fireart.studio\/blog\/10-best-website-animation-techniques-for-your-web-design\/"},"author":{"@type":"Person","name":"Dana"},"headline":"15 Best Website Animation Techniques for Your Web Design","description":"Website design has experienced many changes and disruptive innovations. Web designers have started using web animations to breathe life and motion into static website layouts. Web design animations have become a new trend dominating our screens in recent years. They make the user experience more intuitive and exciting. Website design animation turns an ordinary user...","image":"https:\/\/fireart.studio\/wp-content\/uploads\/2018\/06\/1412-1.jpg","Publisher":[{"@type":"Organization","name":"Fireart Studio","logo":{"@type":"ImageObject","url":"https:\/\/fireartstudio.s3-accelerate.amazonaws.com\/wp-content\/uploads\/2019\/02\/","width":"1221","height":"893"}}],"datePublished":"2020-09-09 13:00:54","dateModified":"2021-02-18T15:56:34+01:00"}</script>
-    <script>
-        (function (w, d, c, n, s) { if (w[n]) { console.log('Creabl is already installed.'); return; } w[n] = { code: c, events: [], attrs: [], event: function (eventName) { this.events.push({ e: eventName }); }, setAttributes: function (attrs) { this.attrs.push(attrs); } }; s = d.createElement('script'); s.async = true; s.src = 'https://page-script.creabl.com/page-script.js?c=' + c; d.head.appendChild(s); })(window, document, '8e-pDXhVOp', 'Creabl');
-    </script>
-</head>
-
-<body data-rsssl="1" class="post-template-default single single-post postid-1412 single-format-standard blog-open-page">
-    <div class="header-top fixed">
-        <div class="container">
-            <a href="https://fireart.studio" class="header-logo">
-                <img class="firelazyloader" src="https://fireart.studio/wp-content/uploads/2019/12/logo.svg"
-                    alt="15 Best Website Animation Techniques for Your Web Design 1"></a>
-
-
-            <div class="ham">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul id="menu-header-menu" class="header-nav desk">
-                <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-10"><a href="/cases/"
-                        class="menu-link fadeInUp" style="visibility: visible;">Cases</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-11"><a
-                        href="/services/" class="menu-link fadeInUp" style="visibility: visible;">Services</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page nav-menu-item-4967"><a
-                        href="https://fireart.studio/about-us/" class="menu-link fadeInUp"
-                        style="visibility: visible;">About Me</a></li>
-          
-                <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-14"><a href="/contact/"
-                        class="menu-link fadeInUp" style="visibility: visible;">Contact</a></li>
-            </ul><a href="https://fireart.studio/contact/" class="header-button desk fadeInRight" data-wow-delay=".5s"
-                style="visibility: visible;">Hire us <i class="icon-circles"><span></span></i></a>
-        </div>
-    </div>
-
-
-    <div class="wrapper">
-        <div class="mobile-nav">
-            <div class="close">
-                <span></span>
-                <span></span>
-            </div>
-            <ul id="menu-header-menu-1" class="header-nav mob">
-               
-                <li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a
-                        href="/services/">Services</a></li>
-                <li id="menu-item-4967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4967">
-                    <a href="https://fireart.studio/about-us/">About Us</a></li>
-                
-               
-                <li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a
-                        href="/contact/">Contact</a></li>
-            </ul><a href="https://fireart.studio/contact/" class="header-button mob">Hire us <i
-                    class="icon-circles"><span></span></i></a>
-        </div>
-        <div class="header-section"
-            style="background-color: #0d0d0d;background: url(https://fireart.studio/wp-content/uploads/2018/06/1412-1.jpg)">
-            <div class="container">
-                <div class="header-top">
-                    <a href="https://fireart.studio" class="header-logo wow fadeInUp" data-wow-delay=".5s"
-                        style="visibility: hidden;">
-                        <img src="blob:https://web.whatsapp.com/7c78e9e4-350a-40ac-b4dc-ff6210df9367"
-                            alt="15 Best Website Animation Techniques for Your Web Design 2"></a>
-
-
-                    <div class="ham">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <ul id="menu-header-menu-2" class="header-nav desk">
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-10"><a
-                                href="/cases/" class="menu-link fadeInUp" style="visibility: visible;">Cases</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-11"><a
-                                href="/services/" class="menu-link fadeInUp" style="visibility: visible;">Services</a>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page nav-menu-item-4967"><a
-                                href="https://fireart.studio/about-us/" class="menu-link fadeInUp"
-                                style="visibility: visible;">About Us</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-12"><a
-                                href="/careers/" class="menu-link fadeInUp" style="visibility: visible;">Careers</a>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-13"><a
-                                href="/blog/" class="menu-link fadeInUp" style="visibility: visible;">Blog</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom nav-menu-item-14"><a
-                                href="/contact/" class="menu-link fadeInUp" style="visibility: visible;">Contact</a>
-                        </li>
-                    </ul><a href="https://fireart.studio/contact/" class="header-button desk wow fadeInUp"
-                        data-wow-delay=".5s" style="visibility: hidden;">Hire us <i
-                            class="icon-circles"><span></span></i></a>
-                </div>
-
-                <div class="header-content">
-                    <div class="header-left">
-                        <div class="b-blog_open-label">
-                            <div class="container">
-                                <div class="b-blog_open-label-box">
-                                    <div class="b-blog_open-label-title wow fadeIn" data-wow-delay=".1s"
-                                        style="visibility: hidden;">
-                                        <h1>15 Best Website Animation Techniques for Your Web Design</h1>
-                                    </div>
-
-                                    <div class="blog-l-item-inf">
-                                        <div class="item-rating wow fadeInUp" data-wow-delay=".15s"
-                                            style="visibility: hidden;">
-                                            <li data-star-group="1412" data-star="1"
-                                                class="post-rating-image star-full-white"><img
-                                                    src="/wp-content/uploads/2019/04/rate-dot.svg"
-                                                    alt="15 Best Website Animation Techniques for Your Web Design 3">
-                                            </li>
-                                            <li data-star-group="1412" data-star="2"
-                                                class="post-rating-image star-full-white"><img
-                                                    src="/wp-content/uploads/2019/04/rate-dot.svg"
-                                                    alt="15 Best Website Animation Techniques for Your Web Design 4">
-                                            </li>
-                                            <li data-star-group="1412" data-star="3"
-                                                class="post-rating-image star-full-white"><img
-                                                    src="/wp-content/uploads/2019/04/rate-dot.svg"
-                                                    alt="15 Best Website Animation Techniques for Your Web Design 5">
-                                            </li>
-                                            <li data-star-group="1412" data-star="4"
-                                                class="post-rating-image star-full-white"><img
-                                                    src="/wp-content/uploads/2019/04/rate-dot.svg"
-                                                    alt="15 Best Website Animation Techniques for Your Web Design 6">
-                                            </li>
-                                            <li data-star-group="1412" data-star="5"
-                                                class="post-rating-image star-empty-white"><img
-                                                    src="/wp-content/uploads/2019/04/rate-dot.svg"
-                                                    alt="15 Best Website Animation Techniques for Your Web Design 7">
-                                            </li>
-                                        </div>
-                                        <span class="span-first  wow fadeInUp" data-wow-delay=".2s"
-                                            style="visibility: hidden;"><a
-                                                href="https://fireart.studio/category/motion-design/">Motion
-                                                Design</a></span>
-                                        <span class=" wow fadeInUp" data-wow-delay=".25s" style="visibility: hidden;">18
-                                            February</span>
-                                        <span class=" wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden;">18
-                                            min read</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="header-bottom">
-                    <a href="#start" class="header-scroll-button smooth  wow fadeInUp" data-wow-delay=".8s"
-                        data-wow-duration="1s" style="visibility: hidden;">
-                        <div class="img">
-                            <img src="https://fireartstudio.s3-accelerate.amazonaws.com/img/arr-b-l.svg"
-                                alt="15 Best Website Animation Techniques for Your Web Design 8">
-                        </div>
-
-                        <span class="header-text-to-hide">Scroll down</span>
-
-                    </a>
-                    <ul class="header-socials">
-                        <li class=" wow fadeInUp" data-wow-delay=".8s" style="visibility: hidden;">
-                            <a href="https://medium.com/fireart-studio">
-                                <div class="img">
-                                    <img class="soc-color"
-                                        src="https://fireart.studio/wp-content/uploads/2019/12/soc1.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 9"><img
-                                        class="soc-black"
-                                        src="https://fireart.studio/wp-content/uploads/2019/12/soc21.svg"
-                                      
-                                </div>
-
-                            </a>
-                        </li>
-                        <li class=" wow fadeInUp" data-wow-delay=".8s" style="visibility: hidden;">
-                            <a href="https://www.behance.net/fireart">
-                                <div class="img">
-                                    <img class="soc-color"
-                                        src="https://fireart.studio/wp-content/uploads/2019/12/soc2.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 11"><img
-                                        class="soc-black"
-                                        src="https://fireart.studio/wp-content/uploads/2019/12/soc22.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 12">
-                                </div>
-
-                            </a>
-                        </li>
-                        <li class=" wow fadeInUp" data-wow-delay=".8s" style="visibility: hidden;">
-                            <a href="https://dribbble.com/Fireart-d">
-                                <div class="img">
-                                    <img class="soc-color"
-                                        src="https://fireart.studio/wp-content/uploads/2019/12/soc3.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 13"><img
-                                        class="soc-black"
-                                        src="https://fireart.studio/wp-content/uploads/2019/12/soc23.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 14">
-                                </div>
-
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="b-blog_open" id="start">
-            <div class="container">
-                <div class="b-blog_open-box content-with-wow">
-                    <p><span style="font-weight: 400;">Website design has experienced many changes and disruptive
-                            innovations. Web designers have started using web animations to breathe life and motion into
-                            static website layouts. Web design animations have become a new trend dominating our screens
-                            in recent years. They make the user experience more intuitive and exciting. Website design
-                            animation turns an ordinary user experience into an unforgettable journey that amazes with
-                            its bold colors, movements, adventures, and exciting interactions.&nbsp;</span></p>
-                    <p><span style="font-weight: 400;">In this article, we are uncovering the power of animations in web
-                            design and introducing the most popular types of webpage animations gaining momentum in
-                            2020.</span></p>
-                    <h2>Techniques for Animation in Website Design</h2>
-                    <p><span style="font-weight: 400;">These web animation techniques can guide you on how to create
-                            even more incredible website designs.</span></p>
-                    <h3>1. Navigation</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3755 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image40-1.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 15" width="800" height="600">
-                    </p>
-                    <p><span style="font-weight: 400;">Navigation is one of the most common animations on websites.
-                            Hidden navigation has become particularly trendy today, as they provide a smoother user
-                            experience. You only need to click on the icon to be directed to the next stage. Designers
-                            use this technique to save more whitespace on the screen. Website animations used for
-                            navigation are supposed to keep the user focused on the main area of a website. Navigation
-                            animations have the following benefits:</span></p>
-                    <ul>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">They organize UX
-                                architecture</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">They how that your website is
-                                professional</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">They break your site into
-                                categories</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">They let customers easily find the
-                                content of each category</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">They decrease the time users spend
-                                on searching for items on a website</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">They make pages more
-                                accessible.</span></li>
-                    </ul>
-                    <p><span style="font-weight: 400;">In addition, great navigation keeps users engaged and invites
-                            them to explore a website? The company and its products or services. You can also hire
-                            professionals to help you design it or look into ready-to-use navigation bars that can be
-                            inserted into the page.</span></p>
-                    <h3>2. Hover animation for desktop</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3749 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image29-850x601-1.png"
-                            alt="15 Best Website Animation Techniques for Your Web Design 16" width="850" height="601"
-                            srcset="https://fireart.studio/wp-content/uploads/2018/06/image29-850x601-1.png 850w, https://fireart.studio/wp-content/uploads/2018/06/image29-850x601-1-300x212.png 300w, https://fireart.studio/wp-content/uploads/2018/06/image29-850x601-1-768x543.png 768w"
-                            sizes="(max-width: 850px) 100vw, 850px"></p>
-                    <p><span style="font-weight: 400;">Hovering is another widely used animation for a website. The CSS
-                            website animations, which can be created using JavaScript, provide feedback on users&rsquo;
-                            actions. Hover animations also improve the overall user experience by simplifying
-                            navigation.</span></p>
-                    <p><span style="font-weight: 400;">A significant disadvantage of hover animations is that they do
-                            not work on mobile devices. Luckily, elevation animation creates the same effect on mobile
-                            devices. Just one tap is required to be informed about an interaction immediately. In this
-                            way, the user will know that they have triggered a specific response.</span></p>
-                    <h3>3. Progression</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3742 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image5-850x567-1.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 17" width="850" height="567">
-                    </p>
-                    <p><span style="font-weight: 400;">The loading time can be frustrating for some users. To reduce it
-                            is not always possible, as it may significantly limit opportunities for your website
-                            design.&nbsp;</span></p>
-                    <p><span style="font-weight: 400;">To overcome this issue, a site designer can use progression
-                            animations. It is a great method to eliminate negative user experience caused by long
-                            loading times. Progression animations work by entertaining the user when information is
-                            being loaded. It helps create an illusion that waiting time is shorter.</span></p>
-                    <p><span style="font-weight: 400;">When designing progression animation, it&rsquo;s
-                            recommended:</span></p>
-                    <ul>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">To keep them simple &ndash; if
-                                they are too complicated, they might become evident to the user and may lose the
-                                user&rsquo;s attention back to the loading time issue.</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Also, loading animations should be
-                                engaging. After all, their main goal is to capture the user&rsquo;s attention.</span>
-                        </li>
-                    </ul>
-                    <p><span style="font-weight: 400;">Website animations can be used to show progress as one of the
-                            engaging details through a website. So, at each level, a user receives information. Loading
-                            bars can be used to show that the process is happening right now. Another alternative is to
-                            use animated percentages of the uploaded information.</span></p>
-                    <h3>4. Attracting attention</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3753 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image34-850x638-1.png"
-                            alt="15 Best Website Animation Techniques for Your Web Design 18" width="850" height="638"
-                            srcset="https://fireart.studio/wp-content/uploads/2018/06/image34-850x638-1.png 850w, https://fireart.studio/wp-content/uploads/2018/06/image34-850x638-1-300x225.png 300w, https://fireart.studio/wp-content/uploads/2018/06/image34-850x638-1-768x576.png 768w"
-                            sizes="(max-width: 850px) 100vw, 850px"></p>
-                    <p><span style="font-weight: 400;">By adding motion to your site, you increase your chances of
-                            drawing the user&rsquo;s attention. So, why not use it on your website. Animations that are
-                            designed to attract attention usually motivate customers to perform the desired
-                            action.</span></p>
-                    <p><span style="font-weight: 400;">Simple animations for a website such as a nod or a shake on an
-                            icon can be used. Animations that attract attention can be used in many parts of your
-                            design, including:</span></p>
-                    <ul>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Forms;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">CTA;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Menus;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Feedback.</span></li>
-                    </ul>
-                    <h3>5. Skeleton screens</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3740 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image2-2.png"
-                            alt="15 Best Website Animation Techniques for Your Web Design 19" width="800" height="600"
-                            srcset="https://fireart.studio/wp-content/uploads/2018/06/image2-2.png 800w, https://fireart.studio/wp-content/uploads/2018/06/image2-2-300x225.png 300w, https://fireart.studio/wp-content/uploads/2018/06/image2-2-768x576.png 768w"
-                            sizes="(max-width: 800px) 100vw, 800px"></p>
-                    <p><span style="font-weight: 400;">Skeleton screens can be used to encourage users to interact with
-                            your site. Skeleton screens are empty sectioned pages into which the information is added
-                            gradually, but also immediately. For better results, animations should be used when
-                            information is being loaded on the web page.</span></p>
-                    <p><span style="font-weight: 400;">The main point of using animations for a website here is to keep
-                            the user engaged. Lack of animations will make this feature boring and useless, as the user
-                            may feel the time is being wasted while the information is being loaded.</span></p>
-                    <h3>6. Transition without hard cuts</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3751 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image31-850x532-1.png"
-                            alt="15 Best Website Animation Techniques for Your Web Design 20" width="850" height="532"
-                            srcset="https://fireart.studio/wp-content/uploads/2018/06/image31-850x532-1.png 850w, https://fireart.studio/wp-content/uploads/2018/06/image31-850x532-1-300x188.png 300w, https://fireart.studio/wp-content/uploads/2018/06/image31-850x532-1-768x481.png 768w"
-                            sizes="(max-width: 850px) 100vw, 850px"></p>
-                    <p><span style="font-weight: 400;">Transition on a site should not be not only smooth but also to
-                            work as an indication of a change in state. The state changes in User Interface usually
-                            include hard cuts, by default, which can cause some difficulties. Hard cut transitions are
-                            too fast and can be frustrating for users.</span></p>
-                    <p><span style="font-weight: 400;">Animation techniques can be applied to remedy this problem.
-                            Through this feature, viewers can click a link that leads to a different section while
-                            remaining on the same page.</span></p>
-                    <h3>7. Visual feedback</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3754 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image37-850x468-1.png"
-                            alt="15 Best Website Animation Techniques for Your Web Design 21" width="850" height="468"
-                            srcset="https://fireart.studio/wp-content/uploads/2018/06/image37-850x468-1.png 850w, https://fireart.studio/wp-content/uploads/2018/06/image37-850x468-1-300x165.png 300w, https://fireart.studio/wp-content/uploads/2018/06/image37-850x468-1-768x423.png 768w"
-                            sizes="(max-width: 850px) 100vw, 850px"></p>
-                    <p><span style="font-weight: 400;">It is always better for customers when they have an opportunity
-                            to see a response to a taken action. Sometimes, viewers may not know what to expect from a
-                            site with too many interactive decorations that may create a navigation challenge for the
-                            user and may even increase website bounce rate.</span></p>
-                    <p><span style="font-weight: 400;">To avoid it, it&rsquo;s recommended to create interactions that
-                            are easy to understand and use. Users should also be provided with information about each
-                            interaction to ensure they get the results they need. Visual feedback includes everything
-                            that can be used to show a response to a user&rsquo;s action. Uses may include:</span></p>
-                    <ul>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">For link states;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">For button states;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">To form elements;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Helpful error messages.</span>
-                        </li>
-                    </ul>
-                    <h3>8. Creative effects</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3750 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image30-1.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 22" width="800" height="600">
-                    </p>
-                    <p><span style="font-weight: 400;">Your goal is not only to create an excellent presentation that
-                            attracts viewers but also to design a unique digital experience. Creative effects allow you
-                            to add special features that can make your site stand out.</span></p>
-                    <p><span style="font-weight: 400;">It allows you to add interactive features that make viewers
-                            excited each time they.</span></p>
-                    <h3><strong>9. Dynamic Backgrounds&nbsp;</strong></h3>
-                    <figure id="attachment_5916" aria-describedby="caption-attachment-5916" style="width: 800px"
-                        class="wp-caption aligncenter"><img loading="lazy" class="wp-image-5916 size-full"
-                            src="https://fireart.studio/wp-content/uploads/2020/09/1-uqwgxvovvag1uskjmx-rza.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 23" width="800" height="600">
-                        <figcaption id="caption-attachment-5916" class="wp-caption-text">Travel platform by&nbsp;<a
-                                class="cc dg kv kw kx ky" href="https://dribbble.com/yalantis" target="_blank"
-                                rel="nofollow" noreferrer>Yalantis</a></figcaption>
-                    </figure>
-                    <p><span style="font-weight: 400;">Dynamic backgrounds are one of the best animation effects for
-                            websites. An animated web page design makes the user journey memorable and helps build an
-                            emotional connection with a user. Background animations should complement the existing
-                            content of your website rather than be at the center of the user&rsquo;s
-                            attention.&nbsp;</span></p>
-                    <p><span style="font-weight: 400;">It also implies keeping an excellent balance between compelling
-                            content and distracting content. What&rsquo;s most important, your dynamic background
-                            shouldn&rsquo;t make the overall UI and UX design look heavier.</span></p>
-                    <h3>10. Galleries and slideshows</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3745 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image13-1.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 24" width="800" height="600">
-                    </p>
-                    <p><span style="font-weight: 400;">Today, you can see slideshows on many websites. They allow
-                            viewing many images without interfering with the user experience. Using a slideshow is a fun
-                            way of delivering a lot of pictures on your website. The users have the option of viewing
-                            these images, or they can continue searching for other content on your site.</span></p>
-                    <p><span style="font-weight: 400;">One thing you should bear in mind when using this animation
-                            technique is the number of images to include and the speed at which the images are moving.
-                            The speed is more important because it can create an unpleasant experience for the user if
-                            it&rsquo;s too fast.</span></p>
-                    <h3>11. Scrolling</h3>
-                    <p><img loading="lazy" class="size-full wp-image-3744 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image12-1.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 25" width="800" height="600">
-                    </p>
-                    <p><span style="font-weight: 400;">Scrolling is a vital part of a user&rsquo;s experience. Making
-                            this visually appealing is essential, as it will determine whether the viewer continues
-                            scrolling on your website. A smooth scrolling provides better customer experience and
-                            results in increased engagement.&nbsp;</span></p>
-                    <p><span style="font-weight: 400;">Scrolling used in longreads usually helps create an emotional
-                            connection with viewers. Break content into different segments and add web animations in
-                            between to make the interaction more interesting for users.</span></p>
-                    <h3><strong>12. Whole Page Motion</strong></h3>
-                    <figure id="attachment_5913" aria-describedby="caption-attachment-5913" style="width: 800px"
-                        class="wp-caption aligncenter"><img loading="lazy" class="wp-image-5913 size-full"
-                            src="https://fireart.studio/wp-content/uploads/2018/06/1-is78xkyx7sotbaaqa67b5q.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 26" width="800" height="600">
-                        <figcaption id="caption-attachment-5913" class="wp-caption-text">Ocean &mdash; scrolling
-                            animation by&nbsp;<a class="cb df ku kv kw kx" href="https://dribbble.com/AntonSKV"
-                                target="_blank" rel="nofollow" noreferrer>Anton Skvortsov</a></figcaption>
-                    </figure>
-                  
-                    </figure>
-                    <h3><strong>15. Storytelling</strong></h3>
-                    <p><span style="font-weight: 400;">Modern users are more interested in products and services if a
-                            brand introduces them to customers in a storytelling format. Animated storytelling has
-                            become another popular type of animation for the web. They help introduce a brand creatively
-                            and establish emotional bonds between users and a company. Usually, storytelling website
-                            animation effects are used in longreads on a website, as this format is the most convenient
-                            to tell a comprehensive and engaging story.</span></p>
-                    <figure id="attachment_5915" aria-describedby="caption-attachment-5915" style="width: 800px"
-                        class="wp-caption aligncenter"><img loading="lazy" class="wp-image-5915 size-full"
-                            src="https://fireart.studio/wp-content/uploads/2018/06/ezgif-6-1546fb0bc346-3.gif"
-                            alt="15 Best Website Animation Techniques for Your Web Design 28" width="800" height="600">
-                        <figcaption id="caption-attachment-5915" class="wp-caption-text">Travel Page Animation by CRI$$
-                            for <a rel="nofollow" href="https://fireart.studio/">Fireart Studio</a></figcaption>
-                    </figure>
-                    <h2>Why should you use animation in your website design?</h2>
-                    <p><span style="font-weight: 400;">The use of animation in website design continues to increase. To
-                            make sure you are up-to-date and give your website a fighting chance against your
-                            competitors, it is best to apply animation. Aside from this advantage, here are other
-                            reasons for using animation:</span></p>
-                    <ul>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Attracts attention to your
-                                website;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Acts as a guide for you;</span>
-                        </li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Keeps visitors engaged for a
-                                longer time;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Increases user
-                                interactions;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Creates an emotional connection
-                                with viewers;</span></li>
-                        <li style="font-weight: 400;"><span style="font-weight: 400;">Improves the overall website
-                                experience.</span></li>
-                    </ul>
-                    <p><span style="font-weight: 400;">Deciding which website animations to incorporate into your
-                            website design is essential. You need to make sure that everything on your website lends
-                            well to this experience. Always keep in mind that it is better to use simple animations, as
-                            in the examples of animated web pages below. Complex website animation effects can create an
-                            opposite response. As a guide, here is a list of the top 5 web animation examples.</span>
-                    </p>
-                    <h2 style="text-align: center;">Creative Web Animation Examples</h2>
-                    <h3>1. <a rel="nofollow" href="https://www.madwell.com/contact/">Madwell</a></h3>
-                    <p><img loading="lazy" class="size-full wp-image-3748 aligncenter"
-                            src="https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2018/06/image26-850x413-1.png"
-                            alt="15 Best Website Animation Techniques for Your Web Design 29" width="850" height="413"
-                            srcset="https://fireart.studio/wp-content/uploads/2018/06/image26-850x413-1.png 850w, https://fireart.studio/wp-content/uploads/2018/06/image26-850x413-1-300x146.png 300w, https://fireart.studio/wp-content/uploads/2018/06/image26-850x413-1-768x373.png 768w"
-                            sizes="(max-width: 850px) 100vw, 850px"></p>
-                   
-                    <h3><span style="font-weight: 400;">Three.js</span></h3>
-                    <p><span style="font-weight: 400;">Three.js is the most famous JS library that enables you to
-                            make3-dimensional animations. It has many ready-to-go internal tools and components that
-                            make the animating process much easier and faster.</span></p>
-                    <h2><span style="font-weight: 400;">Website building platforms that don&rsquo;t need coding</span>
-                    </h2>
-                    <h3><span style="font-weight: 400;">Readymag</span></h3>
-                    <p><span style="font-weight: 400;">Readymag is a widely-known digital platform for building website
-                            pages. It offers a complex of basic animation features that enables you to add motion to
-                            your website elements (rotate, scale, and move them).</span></p>
-                    <h3><span style="font-weight: 400;">Webflow</span></h3>
-                    <p><span style="font-weight: 400;">Webflow is the alternative platform, which you can utilize to
-                            craft multi-step website animations without programming them. In Webflow, you also can
-                            design micro-interactions to various components to trigger motion or the state after
-                            clicking or hovering over them.</span></p>
-                    <h3><span style="font-weight: 400;">Wix</span></h3>
-                    <p><span style="font-weight: 400;">Wix is another web building platform with animation functionality
-                            that can add more interactivity to website elements. Moreover, it enables you to generate
-                            page transitions, add various effects to them, and move them across the page.</span></p>
-                   
-                    <p>Update: <time datetime="2021-02-18T15:56:34">2021-02-18</time></p>
-                </div>
-            </div>
-        </div>
-        <div class="cases-section team-section">
-            <div class="container">
-                <div class="team-title wow fadeInUp" data-wow-delay=".05s" style="visibility: hidden;">
-                    Collection of Practices &amp; Insights
-                </div>
-
-                <div class="cases-items">
-                    <div class="cases-item-wrap">
-                        <div class="cases-item">
-                            <a href="https://fireart.studio/cases/theorem-reach/" class="cases-img wow fadeInUp"
-                                data-wow-delay=".05s" style="visibility: hidden;">
-                                <img src="https://fireart.studio/wp-content/uploads/2019/02/1-11.png"
-                                    alt="15 Best Website Animation Techniques for Your Web Design 34"></a>
-
-                            <div class="cases-info">
-                                <div class="cases-tags">
-                                </div>
-                                <a href="https://fireart.studio/cases/theorem-reach/" class="cases-title wow fadeInUp"
-                                    data-wow-delay=".3s" style="visibility: hidden;">
-                                    UX/UI Design for TheoremReach Mobile App Monetization System </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cases-item-wrap">
-                        <div class="cases-item">
-                            <a href="https://fireart.studio/cases/tandem/" class="cases-img wow fadeInUp"
-                                data-wow-delay=".05s" style="visibility: hidden;">
-                                <img src="https://fireart.studio/wp-content/uploads/2019/02/1-10.png"
-                                    alt="15 Best Website Animation Techniques for Your Web Design 35"></a>
-
-                            <div class="cases-info">
-                                <div class="cases-tags">
-                                </div>
-                                <a href="https://fireart.studio/cases/tandem/" class="cases-title wow fadeInUp"
-                                    data-wow-delay=".3s" style="visibility: hidden;">
-                                    Design Concept for Tandem App &ndash; a Professional Design Tool for iPad Pro </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="end-section">
-            <div class="container">
-                <div class="end-text " data-wow-delay=".05s" style="visibility: hidden;">
-                    Let&rsquo;s make something amazing together <br>
-                    Start by <a href="mailto:client@fireart.studio">saying hi</a> </div>
-            </div>
-            <div class="end-abs-img">
-                <img src="https://fireart.studio/wp-content/themes/fireart/img/img4.svg" class="  firelazyloader"
-                    data-wow-delay=".05s" style="visibility: hidden;"
-                    alt="15 Best Website Animation Techniques for Your Web Design 36">
-            </div>
-        </div>
-        <div class="footer-section">
-            <div class="container wow fadeInUp" data-wow-delay=".05s" style="visibility: hidden;">
-
-                <div class="footer-columns">
-                    <a href="https://fireart.studio" class="footer-col">
-                        <img src="https://fireart.studio/wp-content/uploads/2019/12/logo2.svg"
-                            alt="15 Best Website Animation Techniques for Your Web Design 37"></a>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Visit us
-                        </div>
-                        <ul class="footer-items">
-                            <li><a>Warsaw</a></li>
-
-                            <li><a>ul. Marynarska 21, 02-674</a></li>
-
-                            <li><a href="mailto:client@fireart.studio">client@fireart.studio</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Call us
-                        </div>
-
-                        <ul class="footer-items">
-                            <li><a>Poland</a></li>
-                            <li style="margin-bottom: 18px;"><a href="tel:48222086111">+48 (22) 208 61 11</a></li>
-                            <li><a>United States</a></li>
-                            <li style="margin-bottom: 18px;"><a href="tel:14158771612">+1 (415) 877 16 12</a></li>
-                            <li><a>United Kingdom</a></li>
-                            <li><a href="tel:4403333034645">+44 (033) 33034645</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Services
-                        </div>
-                        <ul id="menu-footer-services" class="footer-items">
-                            <li id="menu-item-5019"
-                                class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5019"><a
-                                    href="https://fireart.studio/services/agile-team-of-js-programmers/">Agile Team of
-                                    JS Programmers</a></li>
-                            <li id="menu-item-5020"
-                                class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5020"><a
-                                    href="https://fireart.studio/services/product-refreshment/">Refreshing existing
-                                    products/web</a></li>
-                            <li id="menu-item-5021"
-                                class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5021"><a
-                                    href="https://fireart.studio/services/development/">Building product from
-                                    scratch</a></li>
-                            <li id="menu-item-5022"
-                                class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5022"><a
-                                    href="https://fireart.studio/services/product-design/">Product Design</a></li>
-                            <li id="menu-item-5023"
-                                class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5023"><a
-                                    href="https://fireart.studio/services/logo-branding/">Branding</a></li>
-                            <li id="menu-item-5024"
-                                class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5024"><a
-                                    href="https://fireart.studio/services/motion-design/">Motion Design</a></li>
-                            <li id="menu-item-5025"
-                                class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5025"><a
-                                    href="https://fireart.studio/services/outstaffing/">Designers Outstaffing</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Company
-                        </div>
-                        <ul id="menu-footer-company" class="footer-items">
-                            <li id="menu-item-5026"
-                                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-5026"><a
-                                    href="https://fireart.studio/cases/">Cases</a></li>
-                            <li id="menu-item-5027"
-                                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-5027"><a
-                                    href="https://fireart.studio/services/">Services</a></li>
-                            <li id="menu-item-5028"
-                                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-5028"><a
-                                    href="https://fireart.studio/about-us/">About Us</a></li>
-                            <li id="menu-item-5029"
-                                class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent  menu-item-5029">
-                                <a href="https://fireart.studio/blog/">Blog</a></li>
-                            <li id="menu-item-5030"
-                                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-5030"><a
-                                    class="hire" href="https://fireart.studio/careers/">Careers<span
-                                        class="foot-pop"><img
-                                            src="https://fireart.studio/wp-content/themes/fireart/img/hire.svg"
-                                            alt="15 Best Website Animation Techniques for Your Web Design 38"></span></a>
-                            </li>
-                            <li id="menu-item-7676"
-                                class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-7676"><a
-                                    href="#">Scholarship</a></li>
-                            <li id="menu-item-7677"
-                                class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-7677"><a
-                                    href="#">Mobile app calc</a></li>
-                            <li id="menu-item-5031"
-                                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-5031"><a
-                                    href="https://fireart.studio/contact/">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Follow us
-                        </div>
-                        <ul id="menu-footer-follow-us" class="footer-items">
-                            <li id="menu-item-231"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-231"><a
-                                    target="_blank" rel="noopener noreferrer"
-                                    href="https://dribbble.com/Fireart-d">Dribbble</a></li>
-                            <li id="menu-item-232"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a
-                                    target="_blank" rel="noopener noreferrer"
-                                    href="https://www.behance.net/fireart">Behance</a></li>
-                            <li id="menu-item-233"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-233"><a
-                                    target="_blank" rel="noopener noreferrer"
-                                    href="https://www.instagram.com/fireart_studio/">Instagram</a></li>
-                            <li id="menu-item-234"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-234"><a
-                                    target="_blank" rel="noopener noreferrer"
-                                    href="https://www.facebook.com/fireartd/">Facebook</a></li>
-                            <li id="menu-item-235"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-235"><a
-                                    target="_blank" rel="noopener noreferrer"
-                                    href="https://twitter.com/fireart_studio">Twitter</a></li>
-                            <li id="menu-item-5032"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5032"><a
-                                    href="https://medium.com/fireart-studio">Medium</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="footer-columns">
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Technologies
-                        </div>
-                        <ul id="menu-technologies-landings" class="footer-items">
-                            <li id="menu-item-7603"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7603"><a
-                                    href="https://fireart.studio/custom-react-js-development-company/">React js
-                                    development</a></li>
-                            <li id="menu-item-7604"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7604"><a
-                                    href="https://fireart.studio/trusted-node-js-development-company/">Node.JS
-                                    development</a></li>
-                            <li id="menu-item-7605"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7605"><a
-                                    href="https://fireart.studio/react-native-development-company/">React Native
-                                    development</a></li>
-                            <li id="menu-item-7606"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7606"><a
-                                    href="https://fireart.studio/react-native-mobile-app-development-company/">React
-                                    Native/app development</a></li>
-                            <li id="menu-item-7607"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7607"><a
-                                    href="https://fireart.studio/vue-js-development-services/">VUE/web development</a>
-                            </li>
-                            <li id="menu-item-7608"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7608"><a
-                                    href="https://fireart.studio/angular-development-company/">Angular development</a>
-                            </li>
-                            <li id="menu-item-7609"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7609"><a
-                                    href="https://fireart.studio/net-development-services/">.NET development</a></li>
-                            <li id="menu-item-7682"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7682"><a
-                                    href="https://fireart.studio/javascript-development-services/">Java Script</a></li>
-                            <li id="menu-item-7683"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7683"><a
-                                    href="https://fireart.studio/swift-app-development-company/">Swift development</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Expertise
-                        </div>
-                        <ul id="menu-services-landings-1" class="footer-items">
-                            <li id="menu-item-8228"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8228"><a
-                                    href="https://fireart.studio/automated-testing-services-company-fireart-studio/">Automated
-                                    testing services</a></li>
-                            <li id="menu-item-7611"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7611"><a
-                                    href="https://fireart.studio/web-portal-development-services/">Web portal
-                                    development</a></li>
-                            <li id="menu-item-7612"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7612"><a
-                                    href="https://fireart.studio/wordpress-web-development-company/">Web
-                                    development/wordpress</a></li>
-                            <li id="menu-item-7613"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7613"><a
-                                    href="https://fireart.studio/front-end-development-services/">Web development/front
-                                    end</a></li>
-                            <li id="menu-item-7614"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7614"><a
-                                    href="https://fireart.studio/backend-web-development-services/">Web development/back
-                                    end</a></li>
-                            <li id="menu-item-7615"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7615"><a
-                                    href="https://fireart.studio/web-portal-development-b2b/">Web development</a></li>
-                            <li id="menu-item-7616"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7616"><a
-                                    href="https://fireart.studio/web-design-outsourcing-company/">Web design
-                                    outsourcing</a></li>
-                            <li id="menu-item-7617"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7617"><a
-                                    href="https://fireart.studio/wordpress-web-design-services/">Web
-                                    design/wordpress</a></li>
-                            <li id="menu-item-7618"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7618"><a
-                                    href="https://fireart.studio/web-design-services/">Web design</a></li>
-                            <li id="menu-item-7619"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7619"><a
-                                    href="https://fireart.studio/web-application-development-company/">Web app
-                                    development</a></li>
-                            <li id="menu-item-8229"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8229"><a
-                                    href="https://fireart.studio/information-technology-consulting-services-fireart-studio/">IT
-                                    Consulting</a></li>
-                            <li id="menu-item-8230"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8230"><a
-                                    href="https://fireart.studio/ui-ux-design-agency-fireart-studio/">UI/UX
-                                    design/consulting</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            <br>
-                        </div>
-                        <ul id="menu-services-landings-2" class="footer-items">
-                            <li id="menu-item-7620"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7620"><a
-                                    href="https://fireart.studio/ui-ux-design-and-development/">UI/UX development</a>
-                            </li>
-                            <li id="menu-item-7621"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7621"><a
-                                    href="https://fireart.studio/product-development-services/">Product development</a>
-                            </li>
-                            <li id="menu-item-7622"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7622"><a
-                                    href="https://fireart.studio/product-design-development-company/">Product
-                                    design/development</a></li>
-                            <li id="menu-item-7623"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7623"><a
-                                    href="https://fireart.studio/web-portal-design-company/">Portal web design</a></li>
-                            <li id="menu-item-8231"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8231"><a
-                                    href="https://fireart.studio/legacy-application-modernization-services-fireart-studio/">Legacy
-                                    Application Modernization</a></li>
-                            <li id="menu-item-8232"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8232"><a
-                                    href="https://fireart.studio/manual-software-testing-services-fireart-studio/">Manual
-                                    testing services</a></li>
-                            <li id="menu-item-7624"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7624"><a
-                                    href="https://fireart.studio/web-and-mobile-app-development-company/">Mobile web
-                                    development</a></li>
-                            <li id="menu-item-7625"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7625"><a
-                                    href="https://fireart.studio/mobile-ios-app-development-services/">Mobile app
-                                    development/ios</a></li>
-                            <li id="menu-item-7626"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7626"><a
-                                    href="https://fireart.studio/hybrid-app-development-services/">Mobile app
-                                    development/hybrid</a></li>
-                            <li id="menu-item-7627"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7627"><a
-                                    href="https://fireart.studio/cross-platform-app-development-services/">App
-                                    development/cross platform</a></li>
-                            <li id="menu-item-7628"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7628"><a
-                                    href="https://fireart.studio/android-app-development-services/">Mobile app
-                                    development/android</a></li>
-                            <li id="menu-item-8233"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8233"><a
-                                    href="https://fireart.studio/mobile-app-development-services/">Mobile app
-                                    development</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            <br>
-                        </div>
-                        <ul id="menu-services-landings-3" class="footer-items">
-                            <li id="menu-item-7636"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7636"><a
-                                    href="https://fireart.studio/mobile-app-design-services/">Mobile app design</a></li>
-                            <li id="menu-item-7638"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7638"><a
-                                    href="https://fireart.studio/web-and-mobile-app-development-company/">Mobile and web
-                                    app development</a></li>
-                            <li id="menu-item-8234"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8234"><a
-                                    href="https://fireart.studio/offshore-web-design-development-company/">Offshore web
-                                    design/development</a></li>
-                            <li id="menu-item-8235"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8235"><a
-                                    href="https://fireart.studio/offshore-app-development-company/">Offshore application
-                                    development</a></li>
-                            <li id="menu-item-8236"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8236"><a
-                                    href="https://fireart.studio/offshore-software-development-company-fireart-studio/">&#1054;ffshore
-                                    software development</a></li>
-                            <li id="menu-item-8237"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8237"><a
-                                    href="https://fireart.studio/outsourcing-software-development-company-fireart-studio/">Outsourcing
-                                    development</a></li>
-                            <li id="menu-item-8238"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8238"><a
-                                    href="https://fireart.studio/cms-development-company-2/">CMS development</a></li>
-                            <li id="menu-item-8239"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8239"><a
-                                    href="https://fireart.studio/web-portal-development-b2b/">Web portal development +
-                                    b2b</a></li>
-                            <li id="menu-item-8240"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8240"><a
-                                    href="https://fireart.studio/web-application-testing-compan/">Web application
-                                    testing</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer-columns">
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Developers
-                        </div>
-                        <ul id="menu-developers-landings-1" class="footer-items">
-                            <li id="menu-item-7642"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7642"><a
-                                    href="https://fireart.studio/hire-front-end-developers/">Web developer/front end</a>
-                            </li>
-                            <li id="menu-item-7643"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7643"><a
-                                    href="https://fireart.studio/hire-professional-mobile-app-developers/">Mobile app
-                                    developer</a></li>
-                            <li id="menu-item-7644"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7644"><a
-                                    href="https://fireart.studio/hire-backend-web-developers/">Web developer/back
-                                    end</a></li>
-                            <li id="menu-item-7645"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7645"><a
-                                    href="https://fireart.studio/hire-node-js-developers/">Node.JS/hire developers</a>
-                            </li>
-                            <li id="menu-item-7646"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7646"><a
-                                    href="https://fireart.studio/hire-reactjs-developers/">React js developer</a></li>
-                            <li id="menu-item-7647"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7647"><a
-                                    href="https://fireart.studio/hire-web-app-developers/">Web app developer</a></li>
-                            <li id="menu-item-7648"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7648"><a
-                                    href="https://fireart.studio/hire-ux-developers/">UX developer</a></li>
-                            <li id="menu-item-7649"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7649"><a
-                                    href="https://fireart.studio/hire-angular-developers/">Angular developer</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            <br>
-                        </div>
-                        <ul id="menu-developers-landings-2" class="footer-items">
-                            <li id="menu-item-7650"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7650"><a
-                                    href="https://fireart.studio/hire-ecommerce-developers/">Ecommerce web developer</a>
-                            </li>
-                            <li id="menu-item-7651"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7651"><a
-                                    href="https://fireart.studio/hire-net-developers/">.NET/hire developers</a></li>
-                            <li id="menu-item-7652"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7652"><a
-                                    href="https://fireart.studio/hire-react-native-developers/">React Native
-                                    developer</a></li>
-                            <li id="menu-item-7653"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7653"><a
-                                    href="https://fireart.studio/hire-professional-ui-developers/">UI developer</a></li>
-                            <li id="menu-item-7656"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7656"><a
-                                    href="https://fireart.studio/react-js-front-end-developers/">React js/front end</a>
-                            </li>
-                            <li id="menu-item-7654"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7654"><a
-                                    href="https://fireart.studio/hire-vue-js-developers/">VUE/web developer</a></li>
-                            <li id="menu-item-7657"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7657"><a
-                                    href="https://fireart.studio/hire-ux-developers/">UX developer</a></li>
-                            <li id="menu-item-8257"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8257"><a
-                                    href="https://fireart.studio/xamarin-development-company-fireart-studio/">Xamarin</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            Industries
-                        </div>
-                        <ul id="menu-industries-landings-1" class="footer-items">
-                            <li id="menu-item-8241"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8241"><a
-                                    href="https://fireart.studio/automotive-software-development-services-fireart-studio/">Automotive
-                                    Software Development</a></li>
-                            <li id="menu-item-7658"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7658"><a
-                                    href="https://fireart.studio/mobile-banking-app-development-services/">Banking/mobile
-                                    app development</a></li>
-                            <li id="menu-item-8258"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8258"><a
-                                    href="https://fireart.studio/business-mobile-app-development-company/">Business/mobile
-                                    app development</a></li>
-                            <li id="menu-item-7660"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7660"><a
-                                    href="https://fireart.studio/business-website-development-services/">Business/web
-                                    development</a></li>
-                            <li id="menu-item-7661"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7661"><a
-                                    href="https://fireart.studio/e-learning-software-development/">E-learning
-                                    development</a></li>
-                            <li id="menu-item-8245"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8245"><a
-                                    href="https://fireart.studio/e-commerce-app-development-company/">Ecommerce/app
-                                    development</a></li>
-                            <li id="menu-item-7663"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7663"><a
-                                    href="https://fireart.studio/ecommerce-web-design/">Ecommerce/web design</a></li>
-                            <li id="menu-item-8246"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8246"><a
-                                    href="https://fireart.studio/e-commerce-website-development-company/">Ecommerce/web
-                                    development</a></li>
-                            <li id="menu-item-8247"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"><a
-                                    href="https://fireart.studio/enterprise-mobile-app-development/">Enterprise/mobile
-                                    app development</a></li>
-                            <li id="menu-item-8242"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8242"><a
-                                    href="https://fireart.studio/iot-app-development-services/">IoT Development/app</a>
-                            </li>
-                            <li id="menu-item-8243"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8243"><a
-                                    href="https://fireart.studio/banking-financial-software-development/">Banking
-                                    software development</a></li>
-                            <li id="menu-item-8244"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8244"><a
-                                    href="https://fireart.studio/insurance-software-development-services/">Insurance
-                                    software development</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <div class="footer-col-title">
-                            <br>
-                        </div>
-                        <ul id="menu-footer-industries-landings-2" class="footer-items">
-                            <li id="menu-item-7669"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7669"><a
-                                    href="https://fireart.studio/enterprise-web-application-development/">Enterprise/web
-                                    development</a></li>
-                            <li id="menu-item-7670"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7670"><a
-                                    href="https://fireart.studio/fintech-app-development-digital-banking/">Fintech/app
-                                    development</a></li>
-                            <li id="menu-item-7671"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7671"><a
-                                    href="https://fireart.studio/healthcare-application-development-company/">Healthcare/mobile
-                                    app development</a></li>
-                            <li id="menu-item-7672"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7672"><a
-                                    href="https://fireart.studio/medical-website-design-healthcare-website-design-with-fireart-studio/">Healthcare/Web
-                                    design</a></li>
-                            <li id="menu-item-7673"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7673"><a
-                                    href="https://fireart.studio/real-estate-website-development-company/">Real
-                                    estate/web development</a></li>
-                            <li id="menu-item-7674"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7674"><a
-                                    href="https://fireart.studio/real-estate-mobile-app-development/">Real estate/mobile
-                                    app development</a></li>
-                            <li id="menu-item-7675"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7675"><a
-                                    href="https://fireart.studio/travel-web-development-company/">Travel web
-                                    development</a></li>
-                            <li id="menu-item-8248"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8248"><a
-                                    href="https://fireart.studio/healthcare-software-development-company/">Healthcare
-                                    software development</a></li>
-                            <li id="menu-item-8249"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8249"><a
-                                    href="https://fireart.studio/government-software-development-services/">Government
-                                    software development</a></li>
-                            <li id="menu-item-8250"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8250"><a
-                                    href="https://fireart.studio/construction-software-development/">Construction
-                                    software development</a></li>
-                            <li id="menu-item-8251"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8251"><a
-                                    href="https://fireart.studio/hr-software-development-services/">HR software
-                                    development</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="acc footer-acc">
-
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Visit us
-                            </div>
-                        </div>
-
-                        <div class="acc-content">
-                            <ul class="footer-items">
-                                <li><a>Warsaw</a></li>
-
-                                <li><a>ul. Marynarska 21, 02-674</a></li>
-
-                                <li><a href="mailto:client@fireart.studio">client@fireart.studio</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Call us
-                            </div>
-                        </div>
-                        <div class="acc-content">
-                            <ul class="footer-items">
-                                <li><a>Poland</a></li>
-                                <li><a href="tel:48222086111">+48 (22) 208 61 11</a></li>
-                                <br><br>
-                                <li><a>United States</a></li>
-                                <li><a href="tel:14158771612">+1 (415) 877 16 12</a></li>
-                                <br><br>
-                                <li><a>United Kingdom</a></li>
-                                <li><a href="tel:4403333034645">+44 (033) 33034645</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Services
-                            </div>
-                        </div>
-
-                        <div class="acc-content">
-                            <ul id="menu-footer-services-1" class="footer-items">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5019">
-                                    <a href="https://fireart.studio/services/agile-team-of-js-programmers/">Agile Team
-                                        of JS Programmers</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5020">
-                                    <a href="https://fireart.studio/services/product-refreshment/">Refreshing existing
-                                        products/web</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5021">
-                                    <a href="https://fireart.studio/services/development/">Building product from
-                                        scratch</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5022">
-                                    <a href="https://fireart.studio/services/product-design/">Product Design</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5023">
-                                    <a href="https://fireart.studio/services/logo-branding/">Branding</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5024">
-                                    <a href="https://fireart.studio/services/motion-design/">Motion Design</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-5025">
-                                    <a href="https://fireart.studio/services/outstaffing/">Designers Outstaffing</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Company
-                            </div>
-                        </div>
-
-                        <div class="acc-content">
-                            <ul id="menu-footer-company-1" class="footer-items">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5026"><a
-                                        href="https://fireart.studio/cases/">Cases</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5027"><a
-                                        href="https://fireart.studio/services/">Services</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5028"><a
-                                        href="https://fireart.studio/about-us/">About Us</a></li>
-                                <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-5029">
-                                    <a href="https://fireart.studio/blog/">Blog</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5030"><a
-                                        href="https://fireart.studio/careers/">Careers</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7676"><a
-                                        href="#">Scholarship</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7677"><a
-                                        href="#">Mobile app calc</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5031"><a
-                                        href="https://fireart.studio/contact/">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Follow us
-                            </div>
-                        </div>
-
-                        <div class="acc-content">
-                            <ul id="menu-footer-follow-us-1" class="footer-items">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-231"><a
-                                        target="_blank" rel="noopener noreferrer"
-                                        href="https://dribbble.com/Fireart-d">Dribbble</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a
-                                        target="_blank" rel="noopener noreferrer"
-                                        href="https://www.behance.net/fireart">Behance</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-233"><a
-                                        target="_blank" rel="noopener noreferrer"
-                                        href="https://www.instagram.com/fireart_studio/">Instagram</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-234"><a
-                                        target="_blank" rel="noopener noreferrer"
-                                        href="https://www.facebook.com/fireartd/">Facebook</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-235"><a
-                                        target="_blank" rel="noopener noreferrer"
-                                        href="https://twitter.com/fireart_studio">Twitter</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5032"><a
-                                        href="https://medium.com/fireart-studio">Medium</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Technologies
-                            </div>
-                        </div>
-
-                        <div class="acc-content">
-                            <ul id="menu-developers-landings-3" class="footer-items">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7642"><a
-                                        href="https://fireart.studio/hire-front-end-developers/">Web developer/front
-                                        end</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7643"><a
-                                        href="https://fireart.studio/hire-professional-mobile-app-developers/">Mobile
-                                        app developer</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7644"><a
-                                        href="https://fireart.studio/hire-backend-web-developers/">Web developer/back
-                                        end</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7645"><a
-                                        href="https://fireart.studio/hire-node-js-developers/">Node.JS/hire
-                                        developers</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7646"><a
-                                        href="https://fireart.studio/hire-reactjs-developers/">React js developer</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7647"><a
-                                        href="https://fireart.studio/hire-web-app-developers/">Web app developer</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7648"><a
-                                        href="https://fireart.studio/hire-ux-developers/">UX developer</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7649"><a
-                                        href="https://fireart.studio/hire-angular-developers/">Angular developer</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Developers
-                            </div>
-                        </div>
-
-                        <div class="acc-content">
-                            <ul id="menu-developers-landings-4" class="footer-items">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7642"><a
-                                        href="https://fireart.studio/hire-front-end-developers/">Web developer/front
-                                        end</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7643"><a
-                                        href="https://fireart.studio/hire-professional-mobile-app-developers/">Mobile
-                                        app developer</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7644"><a
-                                        href="https://fireart.studio/hire-backend-web-developers/">Web developer/back
-                                        end</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7645"><a
-                                        href="https://fireart.studio/hire-node-js-developers/">Node.JS/hire
-                                        developers</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7646"><a
-                                        href="https://fireart.studio/hire-reactjs-developers/">React js developer</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7647"><a
-                                        href="https://fireart.studio/hire-web-app-developers/">Web app developer</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7648"><a
-                                        href="https://fireart.studio/hire-ux-developers/">UX developer</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7649"><a
-                                        href="https://fireart.studio/hire-angular-developers/">Angular developer</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="acc-item">
-                        <div class="acc-button">
-                            <div class="footer-col-title">
-                                Industries
-                            </div>
-                        </div>
-
-                        <div class="acc-content">
-                            <ul id="menu-developers-landings-5" class="footer-items">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7642"><a
-                                        href="https://fireart.studio/hire-front-end-developers/">Web developer/front
-                                        end</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7643"><a
-                                        href="https://fireart.studio/hire-professional-mobile-app-developers/">Mobile
-                                        app developer</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7644"><a
-                                        href="https://fireart.studio/hire-backend-web-developers/">Web developer/back
-                                        end</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7645"><a
-                                        href="https://fireart.studio/hire-node-js-developers/">Node.JS/hire
-                                        developers</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7646"><a
-                                        href="https://fireart.studio/hire-reactjs-developers/">React js developer</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7647"><a
-                                        href="https://fireart.studio/hire-web-app-developers/">Web app developer</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7648"><a
-                                        href="https://fireart.studio/hire-ux-developers/">UX developer</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7649"><a
-                                        href="https://fireart.studio/hire-angular-developers/">Angular developer</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="footer-bottom">
-                    <div class="footer-bottom-left">
-                        <div class="last-img">
-                            <img class="firelazyloader"
-                                src="https://fireartstudio.s3-accelerate.amazonaws.com/img/last-img.svg"
-                                alt="15 Best Website Animation Techniques for Your Web Design 39">
-                        </div>
-
-                        <div class="last-right">
-                            <div class="last-stars">
-                                <div class="last-star">
-                                    <img class="firelazyloader"
-                                        src="https://fireartstudio.s3-accelerate.amazonaws.com/img/star.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 40">
-                                </div>
-                                <div class="last-star">
-                                    <img class="firelazyloader"
-                                        src="https://fireartstudio.s3-accelerate.amazonaws.com/img/star.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 41">
-                                </div>
-                                <div class="last-star">
-                                    <img class="firelazyloader"
-                                        src="https://fireartstudio.s3-accelerate.amazonaws.com/img/star.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 42">
-                                </div>
-                                <div class="last-star">
-                                    <img class="firelazyloader"
-                                        src="https://fireartstudio.s3-accelerate.amazonaws.com/img/star.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 43">
-                                </div>
-                                <div class="last-star">
-                                    <img class="firelazyloader"
-                                        src="https://fireartstudio.s3-accelerate.amazonaws.com/img/star.svg"
-                                        alt="15 Best Website Animation Techniques for Your Web Design 44">
-                                </div>
-                            </div>
-
-                            <div class="last-text">
-                                5.0 by 12 Reviews
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-bottom-right">
-                        <div class="footer-rights">
-                            Copyright &copy; 2021 Fireart Studio. All rights reserved.
-                        </div>
-                        <a href="https://fireart.studio/cookie-policy/" class="footer-cookie">
-                            Cookie Policy
-                        </a>
-                        <a href="https://fireart.studio/privacy-policy/" class="footer-privacy">
-                            Privacy Policy
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <link rel="stylesheet" type="text/css" href="https://fireart.studio/wp-content/themes/fireart/style.css">
-    <script src="https://fireartstudio.s3-accelerate.amazonaws.com/js/jquery-3.4.1.min.js" defer></script>
-    <script src="https://fireart.studio/wp-content/themes/fireart/case-templates-assets/js/bootstrap.min.js"
-        defer></script>
-    <script src="https://fireartstudio.s3-accelerate.amazonaws.com/js/wow.min.js" defer></script>
-    <script src="https://fireartstudio.s3-accelerate.amazonaws.com/js/matchHeight.min.js" defer></script>
-    <script src="https://fireartstudio.s3-accelerate.amazonaws.com/js/luxy.min.js" defer></script>
-    <script src="https://fireart.studio/wp-content/themes/fireart/libs/owl-carousel.min.js" defer></script>
-    <script src="https://fireart.studio/wp-content/themes/fireart/js/script.min.js" defer></script>
-    <script src="https://fireart.studio/wp-content/themes/fireart/js/main.js" defer></script><!-- Google Tag Manager -->
-    <script>
-
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-N9CTGRS');
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
-        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
-    <script>
-        SmoothScroll({
-            // &#1042;&#1088;&#1077;&#1084;&#1103; &#1089;&#1082;&#1088;&#1086;&#1083;&#1083;&#1072; 400 = 0.4 &#1089;&#1077;&#1082;&#1091;&#1085;&#1076;&#1099;
-            animationTime: 800,
-            // &#1056;&#1072;&#1079;&#1084;&#1077;&#1088; &#1096;&#1072;&#1075;&#1072; &#1074; &#1087;&#1080;&#1082;&#1089;&#1077;&#1083;&#1103;&#1093; 
-            stepSize: 150,
-
-            // &#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1085;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;:
-
-            // &#1059;&#1089;&#1082;&#1086;&#1088;&#1077;&#1085;&#1080;&#1077; 
-            accelerationDelta: 30,
-            // &#1052;&#1072;&#1082;&#1089;&#1080;&#1084;&#1072;&#1083;&#1100;&#1085;&#1086;&#1077; &#1091;&#1089;&#1082;&#1086;&#1088;&#1077;&#1085;&#1080;&#1077;
-            accelerationMax: 2,
-
-            // &#1055;&#1086;&#1076;&#1076;&#1077;&#1088;&#1078;&#1082;&#1072; &#1082;&#1083;&#1072;&#1074;&#1080;&#1072;&#1090;&#1091;&#1088;&#1099;
-            keyboardSupport: true,
-            // &#1064;&#1072;&#1075; &#1089;&#1082;&#1088;&#1086;&#1083;&#1083;&#1072; &#1089;&#1090;&#1088;&#1077;&#1083;&#1082;&#1072;&#1084;&#1080; &#1085;&#1072; &#1082;&#1083;&#1072;&#1074;&#1080;&#1072;&#1090;&#1091;&#1088;&#1077; &#1074; &#1087;&#1080;&#1082;&#1089;&#1077;&#1083;&#1103;&#1093;
-            arrowScroll: 50,
-
-            // Pulse (less tweakable)
-            // ratio of "tail" to "acceleration"
-            pulseAlgorithm: true,
-            pulseScale: 4,
-            pulseNormalize: 1,
-
-            // &#1055;&#1086;&#1076;&#1076;&#1077;&#1088;&#1078;&#1082;&#1072; &#1090;&#1072;&#1095;&#1087;&#1072;&#1076;&#1072;
-            touchpadSupport: true,
-        })
-    </script>
-    <div style="display: none;" class="image-preloader">
-        <img src="https://fireartstudio.s3-accelerate.amazonaws.com/img/arr-r.svg"
-            alt="15 Best Website Animation Techniques for Your Web Design 45"><img
-            src="https://fireartstudio.s3-accelerate.amazonaws.com/img/arr-l2.svg"
-            alt="15 Best Website Animation Techniques for Your Web Design 46"><img
-            src="https://fireartstudio.s3-accelerate.amazonaws.com/img/arr-l.svg"
-            alt="15 Best Website Animation Techniques for Your Web Design 47"><img
-            src="https://fireartstudio.s3-accelerate.amazonaws.com/img/arr-r2.svg"
-            alt="15 Best Website Animation Techniques for Your Web Design 48">
-    </div>
+    <title>instagram-with-circle</title>
+    <g>
+    	<path class="st0" d="M8.3532104,8.1475811c0-0.6427002-0.4198608-0.6427002-0.4198608-0.6427002H6.2069092v1.3796387h1.6193237
+    		C8.1064453,8.8845196,8.3532104,8.7912579,8.3532104,8.1475811z"/>
+    	<path class="st0" d="M9.6282349-0.0000019c-0.000061,0-0.000061,0-0.0001221,0
+    		c-5.3019409,0-9.5999756,4.2980347-9.5999756,9.5999756s4.2980347,9.5999756,9.5999756,9.5999756
+    		s9.5999756-4.2980347,9.5999756-9.5999756C19.2281494,4.2980938,14.9301147-0.0000019,9.6282349-0.0000019z M11.0542603,6.7698345
+    		h2.4470825v0.7622681h-2.4470825V6.7698345z M9.8179932,10.7634869c0,1.8865967-1.8846436,1.8248901-1.8846436,1.8248901H4.8468628
+    		V6.4068584h3.0864868c0.9382935,0,1.6785278,0.5384521,1.6785278,1.6455688c0,1.1056519-0.9047852,1.1759644-0.9047852,1.1759644
+    		C9.8997803,9.2283916,9.8175659,10.7629986,9.8179932,10.7634869z M14.3927002,10.6625957H11.321106
+    		c0,1.1486816,1.0444336,1.0759888,1.0444336,1.0759888c0.9851074,0,0.9506836-0.6652222,0.9506836-0.6652222h1.0435181
+    		c0,1.7651367-2.0291138,1.6436768-2.0291138,1.6436768c-2.4356079,0-2.2797241-2.362915-2.2797241-2.362915
+    		s-0.0018921-2.3753662,2.2797241-2.3753662C14.7318115,7.9787579,14.3931885,10.6621075,14.3927002,10.6625957z"/>
+    	<path class="st0" d="M12.3540649,8.8845196c-0.9163208,0-1.0435181,0.9526367-1.0435181,0.9526367h1.9483032
+    		C13.2588501,9.8371563,13.2703247,8.8845196,12.3540649,8.8845196z"/>
+    	<path class="st0" d="M7.9333496,9.8371563H6.2069092v1.6522827h1.638916
+    		c0.2457886-0.005249,0.7130127-0.0803223,0.7130127-0.8034058C8.5588379,9.8285503,7.9333496,9.8371563,7.9333496,9.8371563z"/>
+    </g>
+    </svg>
+    </a>
+  </li>
+  </ul>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-visible/1.2.0/jquery.visible.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/packery/2.1.1/packery.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.min.js"></script>
+<script src="http://driesvanbroeck.be/wp-content/themes/driesvanbroeck/js/main.js"></script>
+<script type='text/javascript' src='http://driesvanbroeck.be/wp-includes/js/wp-embed.min.js?ver=5.2.9'></script>
 </body>
-
 </html>
+
+<!-- Dynamic page generated in 0.057 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2021-03-13 21:16:53 -->
+
+<!-- super cache -->
+       
+                     
